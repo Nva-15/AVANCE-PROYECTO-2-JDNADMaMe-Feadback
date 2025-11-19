@@ -57,10 +57,10 @@ jobs:
       # Tercer step - Variables secretas
       - name: variables de entorno secretas
         run: |
-          echo "user: ${{ env.USER }}"
-          echo "password: ${{ env.PASSWORD }}"
+          echo "user: ${{env.USER}}"
+          echo "password: ${{env.PASSWORD}}"
       
       # Cuarto step - Variables abiertas
       - name: variables abiertas
         run: |
-          echo "Versión de mi proyecto: ${{ vars.VERSION_DE_MI_PROYECTO}}"
+          echo "Versión de mi proyecto: ${{vars.VERSION_DE_MI_PROYECTO}}"
