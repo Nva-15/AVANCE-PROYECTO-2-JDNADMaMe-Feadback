@@ -19,10 +19,10 @@ jobs:
     # The type of runner that the job will run on
     runs-on: ubuntu-latest
     env:
-      nombres: "Juan Carlos"
-      apellidos: "Pérez González"
-      edad: "25"
-      VERSION_PROYECTO: "3.0"
+      nombres: "Neiser"
+      apellidos: "Vasquez Alarcon"
+      edad: "29"
+      #VERSION_PROYECTO: "3.0"
 
     # Steps represent a sequence of tasks that will be executed as part of the job
     steps:
