@@ -23,11 +23,6 @@ jobs:
       apellidos: "Vasquez Alarcon"
       edad: "29"
 
-      user: ${{secrets.USER}}
-      password: ${{secrets.PASSWORD}}
-
-      
-
     # Steps represent a sequence of tasks that will be executed as part of the job
     steps:
       # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
@@ -57,8 +52,8 @@ jobs:
       # Tercer step - Variables secretas
       - name: variables de entorno secretas
         run: |
-          echo "user: ${{env.USER}}"
-          echo "password: ${{env.PASSWORD}}"
+          echo "user: ${{secrets.USER}}"
+          echo "password: ${{secrets.PASSWORD}}"
       
       # Cuarto step - Variables abiertas
       - name: variables abiertas
