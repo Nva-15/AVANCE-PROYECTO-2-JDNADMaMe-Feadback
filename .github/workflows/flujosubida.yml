@@ -63,4 +63,4 @@ jobs:
       # Cuarto step - Variables abiertas
       - name: variables abiertas
         run: |
-          echo "Versión de mi proyecto: $VERSION_PROYECTO"
+          echo "Versión de mi proyecto: $VERSION_DE_MI_PROYECTO"
